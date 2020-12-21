@@ -5,6 +5,7 @@ A ideia para esse projeto pessoal surgiu quando eu tive a necessidade de calcula
 Com esse projeto pude colocar em pratica os seguinte conhecimentos:
 
 - O uso de funções callback;
+- uso do método toLocaleString() para representação de moedas de acordo com o padrão passado como parâmetro
 - Manipulação do DOM;
 - Função construtora de objeto;
 - Obter resultados através de métodos dessa mesma função construtora;
