@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo de juros</title>
+</head>
+<body>
+    <header>$ Calcule o juros $</header>
+    <div class="texts">
+        <h3>Juros simples</h3>
+        <p>O juros simples e calculado com base em um valor fixado chamado de capital inicial. Trata-se de uma porcentagem do capital inicial aplicada durante determinado tempo. A principal caracteristica do juros simples e que o valor nao se altera no decorrer dos meses.</p>
+        <h3>Juros composto</h3>
+        <p>Os Juros Compostos sao calculados levando em conta a atualizacao do capital, ou seja, o juro incide nao apenas no valor inicial, mas tambem sobre os juros acumulados (juros sobre juros).</p>
+    </div>
+    <div class="info">
+        <form action="#" class="formulario">
+            <div class="dados">   
+            <label for="capital">Capital (R$):</label>
+            <input type="number" id="capital" autocomplete="off"  class="campo"><br><br>
+            <label for="juros">Taxa de juros (%):</label>
+            <input type="number" id="juros" autocomplete="off"  class="campo"><br><br>
+            <label for="tempo">Tempo:</label>
+            <input type="number" id="tempo" autocomplete="off"  class="campo"><br><br>
+            </div>
+            <div class="footForm">
+            <div>
+            <div class="dados">
+            <input type="checkbox" id="simples" class="check">
+            <label for="simples">Juros simples</label>
+            <input type="checkbox" id="composto" class="check">
+            <label for="composto">Juros composto</label>
+            </div>
+            <div class="dados">
+            <input type="checkbox" id="detalhado" class="check">
+            <label for="detalhado">detalhado</label>
+            <input type="checkbox" id="total" class="check">
+            <label for="total">apenas o total</label>
+            </div>
+            </div>
+            <div class="total"><h4>Total de juros:<p></p></h4></div>
+            </div>
+            <div class="btn"><button id="calc" class="campo">calcular</button></div> 
+              
+        </form>
+    </div>
+    <div class="feedback"><p></p></div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

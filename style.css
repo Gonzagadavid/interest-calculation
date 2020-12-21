@@ -1,0 +1,131 @@
+body{
+    margin: 0%;
+    background-color: rgb(238, 238, 195);
+    color: rgb(46, 128, 43);
+    font-family: modern_squared2;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(238, 238, 195);
+    background-color: rgb(46, 128, 43);
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 40px;
+    margin-bottom: 90px;
+}
+
+.dados{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 40px;
+font-size: 28px;
+font-weight: bolder;
+}
+
+.campo{
+    margin: 10px;
+    background-color: rgb(46, 128, 43);
+    color: rgb(238, 238, 195);
+    padding:5px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: modern_squared2;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.check{
+    box-shadow: inset rgb(46, 128, 43) 0 -5px 12px, inset rgb(46, 128, 43) 0 1px 3px, rgba(46, 128, 43, 1) 0 1px;
+    margin: 10px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: modern_squared2;
+    font-size: 25px;
+}   
+
+ #calc{
+    cursor: pointer;
+    padding: 15px;
+} 
+
+.footForm{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 50%;
+    font-size: 35px;
+}
+
+.feedback{
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    columns: 2;
+}
+
+@font-face{
+    font-family: modern_squared2;
+    src: url(./modern_squared2.ttf);
+}
+
+@media(max-width: 1130px){
+    .dados{
+        flex-direction: column;
+    }
+
+    .feedback{
+        columns: 1;
+    }
+}
+
+@media(max-width: 570px){
+  header{
+      display: none;
+  }
+  .total{
+      font-size: 25px;
+  }
+  .dados{
+      font-size: 25px;
+      margin: 15px;
+  }
+  
+  .texts{
+      display: none;
+  }
+
+  .feedback{
+      font-size: 20px;
+  }
+}
