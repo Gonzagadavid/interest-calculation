@@ -1,13 +1,13 @@
-# Calcule o juros  :moneybag: 
+#   Calculate interest :moneybag:  
 
-A ideia para esse projeto pessoal surgiu quando eu tive a necessidade de calcular o juros para um assunto pessoal, imediatamente veio a ideia de construir um programa para que calculasse tanto o juros detalhado como o composto e que pudesse exibir os cálculos detalhadamente quando desejado.
+The idea for this personal project came up when I had the need to calculate interest for a personal matter, immediately came the idea of building a program to calculate both detailed interest and compound interest and to display the calculations in detail when desired.
 
-Com esse projeto pude colocar em pratica os seguinte conhecimentos:
+ With this project I was able to put into practice the following knowledge: 
 
-- uso do método toLocaleString() para representação de moedas de acordo com o padrão passado como parâmetro
-- Manipulação do DOM;
-- Função construtora de objeto;
-- Obter resultados através de métodos dessa mesma função construtora;
-- Responsividade da página;
+-  Use of the toLocaleString () method to represent currencies according to the standard passed as a parameter;
+-  DOM element manipulation;
+-  Object-building function;
+-  Obtain results through methods of the same construction function; 
+-  Responsiveness of the page.
 
-Procurei deixar o designe da página de acordo com o tema, espero que gostem.
+ I tried to leave the page design according to the theme, I hope you like it.
