@@ -1,4 +1,4 @@
-#   Calculate interest :moneybag:  
+#    Interest calculation :moneybag:  
 
 The idea for this personal project came up when I had the need to calculate interest for a personal matter, immediately came the idea of building a program to calculate both detailed interest and compound interest and to display the calculations in detail when desired.
 
